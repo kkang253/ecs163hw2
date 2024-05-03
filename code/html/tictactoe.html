@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+     <link rel="stylesheet" href="../css/style.css" /> 
+
+     <!-- favicon drawn by Keyi Kang -->
+     <link href="../img/favicon.ico" rel="shortcut icon" alt="icon of KK" type="image/x-icon" />
+     
+    <title>tic tac toe</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>
+           Tic Tac Toe
+        </h1>
+  
+    </header>
+
+    <main>
+
+        <figure>
+            <!--images all drawn by Kexin Kang 
+            -->
+            
+            <img src="../img/ttc.jpg" 
+            alt="tic tac toe" 
+            width="500px" height = "380px"
+            />
+           
+            </figure>   
+        
+        <p>
+            Pick your spot!
+        </p>
+
+       
+    <!--
+        following div inspiration credit to 
+        https://www.geeksforgeeks.org/simple-tic-tac-toe-game-using-javascript/
+    -->
+<div class="ui">
+    <div class="row"> 
+        <button id="s1" class="cell" onclick="userMove(0, 0)" readonly></button>
+        <button id="s2" class="cell" onclick="userMove(0, 1)" readonly></button>
+        <button id="s3" class="cell" onclick="userMove(0, 2)" readonly></button>
+    </div> 
+    <div class="row"> 
+        <button id="s4" class="cell" onclick="userMove(1, 0)" readonly></button>
+        <button id="s5" class="cell" onclick="userMove(1, 1)" readonly></button>
+        <button id="s6" class="cell" onclick="userMove(1, 2)" readonly></button>
+    </div> 
+    <div class="row"> 
+        <button id="s7" class="cell" onclick="userMove(2, 0)" readonly></button>
+        <button id="s8" class="cell" onclick="userMove(2, 1)" readonly></button>
+        <button id="s9" class="cell" onclick="userMove(2, 2)" readonly></button>
+    </div> 
+</div>
+
+    <script src="../java/ttc.js"></script>
+    
+    <p id="gameResult"></p>
+        
+        
+        <figure>
+            <a href="">
+                <img src="../img/refresh.PNG" 
+                alt="refresh" 
+                width="150px" height = "150px"
+                title="refresh"/></a>
+        </figure>
+        
+        
+    </main>
+
+
+    <footer>
+        <section>
+            &copy Keyi Kang 
+            <br>
+            Contacts:
+            <br>
+            <a href="tel:5304078760">Phone: (530)-407-8760</a>
+            <br>
+            <a href="mailto:kkkang@ucdavis.edu">Mail: kkkang@ucdavis.edu</a>
+        </section>
+        
+    </footer>
+
+
+</body>
+</html>
